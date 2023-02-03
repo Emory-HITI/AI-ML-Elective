@@ -10,24 +10,26 @@ This elective is offered in two tracks, Technical and Non-Technical/Conceptual.
 - Technical Track: Students interested in the Technical track are expected to be comfortable with coding (ex. completion of a 1 semester Intro coding course). They will design and implement projects using curated datasets provided by the elective director (current datasets include chest x ray images, mammograms, knee radiographs, or ICU data). This is intended to maximize the likelihood of student success in the limited time frame.
 
 Students will:
-Build an appreciation for the growing importance of ML in clinical use cases
-Learn to identify problems in clinical practice that can be solved by ML and draft a project proposal
-Understand limitations of ML/AI (biases, implementation problems, errors) and learn how to avoid pitfalls
-Design, train, and evaluate basic clinical ML algorithms (Technical Track only)
-
+<ul>
+<li>Build an appreciation for the growing importance of ML in clinical use cases
+<li>Learn to identify problems in clinical practice that can be solved by ML and draft a project proposal
+<li>Understand limitations of ML/AI (biases, implementation problems, errors) and learn how to avoid pitfalls
+<li>Design, train, and evaluate basic clinical ML algorithms (Technical Track only)
+</ul>
+  
 All students will receive mentoring in drafting and scoping a technical project proposal for a clinical AI project on a topic of their interest. Students with a prior programming background (i.e. proficiency in Python coding) who choose the Technical track will also work on developing, training, and evaluating a clinical machine learning model using one of several provided datasets, and will receive feedback and guidance during this process. The Non-Technical track will have a deeper focus in understanding concepts, limitations, and history of clinical ML, generally and in a specialty of their choosing, and will learn how to train a basic machine learning model without writing code using an online graphical interface.
 
 This is a self-directed elective. Students should allow their curiosity to guide their learning beyond this, and independently research the day’s topics using the plethora of online resources available. You are encouraged to tailor the elective to topics you are passionate about. 
 
 ## Details for Deliverables
-### Deliverable 1: 
-Literature Review: Students will complete a literature review on the state of machine learning in a field of their choosing (topic can be broad, like “ML applications in dermatology”; or narrower, like “ML algorithms to predict sepsis risk”). Students should not only demonstrate understanding of the potential of ML in this field, but also the difficulties (data limitations, implementation problems, ethics, etc). Students will submit a summary (1 page single-spaced, or slide presentation) of their learnings.
+### Deliverable 1: Literature Review
+Students will complete a literature review on the state of machine learning in a field of their choosing (topic can be broad, like “ML applications in dermatology”; or narrower, like “ML algorithms to predict sepsis risk”). Students should not only demonstrate understanding of the potential of ML in this field, but also the difficulties (data limitations, implementation problems, ethics, etc). Students will submit a summary (1 page single-spaced, or slide presentation) of their learnings.
 
-### Deliverable 2: 
-Dataset Exercise: Understanding different data sources is crucial in healthcare AI. Students should begin building an intuition for what data sources can be used for particular situations and model types, as well as the strengths, weaknesses, sample size, gaps, biases, etc. present in each data source. For this exercise, students should find ~3 open-source datasets for healthcare (such as those freely available on <a href="https://www.kaggle.com/datasets?search=health">Kaggle</a> or <a href="https://huggingface.co/">Hugging Face</a>) and look through the data sources. Imagine problems that could be solved using those datasets, and prepare a written critique (1 page single-spaced per dataset) of the data source. Important factors to consider include those listed above (strengths, weaknesses, etc.) as well as consideration of future steps that could be taken to improve these existing datasets in order to effectively use them for feature selection, model training, and model validation. If you were the one collecting the data, what would you have done differently? Why might this data collection be difficult in the real world? You may want to use this exercise to explore datasets relevant to your chosen field/problem.
+### Deliverable 2: Dataset Exercise
+Understanding different data sources is crucial in healthcare AI. Students should begin building an intuition for what data sources can be used for particular situations and model types, as well as the strengths, weaknesses, sample size, gaps, biases, etc. present in each data source. For this exercise, students should find ~3 open-source datasets for healthcare (such as those freely available on <a href="https://www.kaggle.com/datasets?search=health">Kaggle</a> or <a href="https://huggingface.co/">Hugging Face</a>) and look through the data sources. Imagine problems that could be solved using those datasets, and prepare a written critique (1 page single-spaced per dataset) of the data source. Important factors to consider include those listed above (strengths, weaknesses, etc.) as well as consideration of future steps that could be taken to improve these existing datasets in order to effectively use them for feature selection, model training, and model validation. If you were the one collecting the data, what would you have done differently? Why might this data collection be difficult in the real world? You may want to use this exercise to explore datasets relevant to your chosen field/problem.
 
-### Deliverable 3: 
-AI Project Proposal Paper: The final deliverable for this elective is a hypothetical ML tool that you would like to see implemented in a clinical setting. For Technical track students, this paper can describe implementation of the model that was trained/validated during the elective. This can be either a paper or a slide presentation.
+### Deliverable 3: AI Project Proposal Paper
+The final deliverable for this elective is a hypothetical ML tool that you would like to see implemented in a clinical setting. For Technical track students, this paper can describe implementation of the model that was trained/validated during the elective. This can be either a paper or a slide presentation.
 This well-thought out deliverable should contain detailed sections on the background and problem space including literature citations, an implementation design (including timeline, pilot/study setup with intervention and comparisons, and a facility deployment plan), outcomes (primary and secondary), analysis plan (what type of statistical analysis, metrics to track, covariates, etc), and stakeholders (which roles across which teams would be important to collaborate with). An important component of this plan is describing the current state of the clinical workflow that the tool is meant to be used in, as well as a future state describing the workflow steps including the tool and consideration of how workflow disruptions could be minimized. Any plans (educational/training, etc) detailing how staff would be encouraged to actually use the new tool may also be relevant. Lastly, ethics and equity considerations of the tool/project should be discussed. 
 You are encouraged to receive input from the course director (via weekly meetings or office hours) throughout development on this deliverable. For examples, please consult with the course director.
 
@@ -36,7 +38,9 @@ You are encouraged to receive input from the course director (via weekly meeting
 To use this checklist: Copy checklist into a new document. Share your copy of the checklist with the faculty advisor, checking off LOs as you complete them. Some resources may require institutional access. 
 After completing each section, take some time for independent research to answer any questions that might have come up for you. 
 
-Your Name:_____________________              Month Started: ________________________
+Your Name: ___________________________
+
+Date Started: ________________________
 
 Required Surveys:
 <ul>
